@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    background-image: url("../img/Cs2-banne.png");
+    background-size: 100%;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    border-bottom: 2px solid #ffcc00;
+}
+
+.Profile {
+    background-color: #ffcc00;
+    padding: 40px 0 40px 0;
+}
+
+.SIZE {
+    margin: 5px 5px 5px 5px;
+}
+
+.hero-section {
+    background-image: url("../img/counter-strike-2s.png");
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+}
+
+.skins-gallery {
+    background-color: #121517;
+}
+
+.skin-card {
+    background-color: #2c3036;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.skin-card .card-img-top {
+    border-bottom: 3px solid #ffcc00;
+}
+
+.skin-card .card-title {
+    color: #ffcc00;
+}
+
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.BG-COLOR {
+    background-color: #2c3036;
+}
+
+.BG-IMAGE {
+    background-image: url("Cs2-banne.png");    
+}
+

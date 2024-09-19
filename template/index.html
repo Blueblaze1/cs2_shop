@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 Skin Marketplace</title>
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "css/index.css" %}">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CS2 Marketplace</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skins.html">Skins</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner -->
+<section class="hero-section text-center">
+    <div class="container">
+        <h1>Welcome to the CS2 Skin Marketplace</h1>
+        <p>Buy, Sell and Trade the coolest CS2 skins.</p>
+        <a href="#skins" class="btn btn-primary">Explore Skins</a>
+    </div>
+</section>
+
+<!-- Skins Gallery -->
+<section class="skins-gallery py-5" id="skins">
+    <div class="container">
+        <h2 class="text-center mb-4">Available CS2 Skins</h2>
+        <div class="row">
+            <!-- Skin Card 1 -->
+            <div class="col-md-4">
+                <div class="card skin-card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Skin 1">
+                    <div class="card-body">
+                        <h5 class="card-title">AWP Dragon Lore</h5>
+                        <p class="card-text">Price: $2000</p>
+                        <a href="skin_detail.html" class="btn btn-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Skin Card 2 -->
+            <div class="col-md-4">
+                <div class="card skin-card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Skin 2">
+                    <div class="card-body">
+                        <h5 class="card-title">AK-47 Redline</h5>
+                        <p class="card-text">Price: $700</p>
+                        <a href="#" class="btn btn-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Skin Card 3 -->
+            <div class="col-md-4">
+                <div class="card skin-card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Skin 3">
+                    <div class="card-body">
+                        <h5 class="card-title">M4A4 Howl</h5>
+                        <p class="card-text">Price: $1500</p>
+                        <a href="#" class="btn btn-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<audio autoplay loop>
+  <source src="{{ song }}" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
